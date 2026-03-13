@@ -106,3 +106,4 @@ Your completed flow will have the following logical structure:
     *   └───> **Send an email (V2)**
 
 You have now successfully automated the process. Save and test the flow to ensure it works as expected.
+Developed by Bekaiym Egemkulova.

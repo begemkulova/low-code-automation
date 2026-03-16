@@ -54,11 +54,8 @@ This temporary step is essential because we need to see what the file data looks
 
 **If it does not work, ask an AI bot to transform the data into JSON format. Remove any sensitive data or information first.** 
 
-
-Use this copy-paste version for a GitHub README.
-
 ````markdown
-## Power Automate Parse JSON Schema
+## Power Automate Parse JSON Schema EXAMPLE
 
 ```json
 {

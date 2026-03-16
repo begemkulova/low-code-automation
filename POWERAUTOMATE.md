@@ -52,6 +52,60 @@ This temporary step is essential because we need to see what the file data looks
 
 ---
 
+**If it does not work, ask an AI bot to transform the data into JSON format. Remove any sensitive data or information first.** 
+Example of the Power Automate Parse JSON schema:
+    ```json
+    [{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "link": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "type": {
+        "type": ["string", "null"]
+      },
+      "size": {
+        "type": "integer"
+      },
+      "referenceId": {
+        "type": "string"
+      },
+      "driveId": {
+        "type": "string"
+      },
+      "status": {
+        "type": "integer"
+      },
+      "uploadSessionUrl": {
+        "type": ["string", "null"]
+      },
+      "badgerToken": {
+        "type": ["string", "null"]
+      }
+    },
+    "required": [
+      "name",
+      "link",
+      "id",
+      "size",
+      "referenceId",
+      "driveId",
+      "status"
+    ]
+  }
+}]
+    ```
+
+---
+
 ### Part 2: Building the Core Flow Logic
 
 Now that we have the data sample, we can build the final flow.
